@@ -1,4 +1,4 @@
-package botConfing;
+package tg.bot.Simple_English;
 
 import lombok.Data;
 import org.springframework.beans.factory.annotation.Value;
@@ -8,7 +8,7 @@ import org.springframework.context.annotation.PropertySource;
 @Configuration
 @Data
 @PropertySource("application.properties")
-public class botConfig {
+public class BotConfing {
     @Value("${bot.name}")
     String botName;
     @Value("${bot.token}")
